@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">NotificationDirectReply</string>
+    <string name="text_show_notif">Show notification</string>
+</resources>
