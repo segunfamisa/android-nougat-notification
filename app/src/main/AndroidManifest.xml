@@ -16,6 +16,10 @@
             </intent-filter>
         </activity>
 
+        <!-- activity to handle reply for pre-n devices -->
+        <activity android:name=".ReplyActivity"
+            android:theme="@style/AppTheme.Translucent"/>
+
         <service
             android:name=".NotificationService"
             android:exported="false" />
@@ -24,7 +28,6 @@
             android:name=".NotificationBroadcastReceiver"
             android:enabled="true"
             android:exported="false" />
-
 
     </application>
 

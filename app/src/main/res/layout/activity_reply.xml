@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reply"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="45dp"
+    android:paddingTop="45dp"
+    android:background="@color/windowBackground"
+    android:gravity="center"
+    tools:context="com.segunfamisa.notification.directreply.ReplyActivity">
+
+    <EditText
+        android:id="@+id/edit_reply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/button_send"
+        android:hint="@string/hint_reply"/>
+
+    <ImageButton
+        android:id="@+id/button_send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"
+        android:background="@null"
+        android:padding="8dp"
+        android:src="@drawable/ic_send"/>
+</RelativeLayout>
